@@ -14,7 +14,6 @@ const useGetUser = (userid) => {
         return;
       }
 
-      console.log("response : ", response);
       setUser(response);
     });
   }, [userid]);
